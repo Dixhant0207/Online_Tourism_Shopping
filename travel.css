@@ -1,0 +1,107 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: inherit;
+    background-image: url('francesca-tirico-9G9vxsMzi18-unsplash.jpg');
+    background-size: cover;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#big1 {
+    color: orange;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#big2 {
+    color: lime;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    background-image: url('godwin-bephin-thrnz8zgQDE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Tahoma;
+    font-size: 72px;
+}
+
+#htype1 {
+    color: rgb(8, 45, 165);
+    font-family: Verdana;
+    font-size: 48px;
+}
+
+#ptype1 {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 36px;
+}
+
+#htype2 {
+    color: rgb(8, 45, 165);
+    font-size: 48px;
+    font-family: Verdana;
+}
+
+#ptype2 {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 36px;
+}
+
+#htype3 {
+    color: rgb(8, 45, 165);
+    font-size: 48px;
+    font-family: Verdana;
+}
+
+#ptype3 {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 36px;
+}
+
+#htype4 {
+    color: rgb(8, 45, 165);
+    font-size: 48px;
+    font-family: Verdana;
+}
+
+#ptype4 {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 36px;
+}
+
+#htype5 {
+    color: rgb(8, 45, 165);
+    font-size: 48px;
+    font-family: Verdana;
+}
+
+#ptype5 {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 36px;
+}

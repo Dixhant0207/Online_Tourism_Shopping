@@ -1,0 +1,75 @@
+*{
+  overflow:hidden;
+}
+body{
+	background-image:url('images\\main_page_back1.jpg');
+  background-attachment: fixed;  
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.c {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.banner-text {
+  padding-top: 8em;
+	padding-left: 3rem;
+	margin-left: 1rem;
+}
+.m {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.d{
+	max-width: 60%;
+  max-height: 50%;
+}
+	
+h1 {
+	font-family: 'Fantasy';
+  font-size: 50px;
+  color: #fff;
+	text-shadow: 4px 4px 4px black;
+}
+h2 {
+	font-family:  monospace;
+  font-size: 25px;
+  color: #fff;
+  line-height: 1.9;
+  letter-spacing: 1px;
+	text-shadow: 4px 4px 4px black;
+}
+.btn {
+  position: absolute;
+  text-decoration:none;
+  border-radius:0.2rem;
+  padding: 14px 26px;
+  color: white;
+  background-color: black;
+  font-size:1.3rem;
+  border: 1px solid white;
+  transition: all 0.5s;
+}
+.btn:hover {
+  transform: translate(0,10px);
+	text-shadow: 4px 4px 4px black;
+}
+
+#o:hover {
+	background-size: cover;
+	background-image:url('images\\img1.png');
+}
+
+#t:hover {
+	background-size: cover;
+	background-image:url('images\\img2.jpg');
+}
+#th:hover {
+	background-size: cover;
+	background-image:url('images\\img3.jpg');
+}
+#f:hover {
+	background-size: cover;
+	background-image:url('images\\img4.jpg');
+}
